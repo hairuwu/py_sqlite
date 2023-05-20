@@ -1,0 +1,11 @@
+db:
+  host:
+  port:
+  name:
+
+
+
+# 用户首先配置好db_config.yml文件，包括数据库地址，数据库名称信息
+# 然后用户 通过给一个实体类增加注解，即可自动生成对应的表
+# 封装实体类的操作service，重写方法即可，提供比如query, update, insert等操作
+
